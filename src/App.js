@@ -20,7 +20,7 @@ export default function App() {
           crossOrigin="anonymous"
         ></script>
         <link rel="stylesheet" href="src/style.css" />
-        <title>Weather App</title>
+        <title>React Weather App</title>
       </head>
       <body></body>
     </html>

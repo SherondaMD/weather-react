@@ -54,8 +54,9 @@ export default function Search(props) {
     return (
       <div>
         {form}
-        <h1>{city}Las Vegas</h1>
+        <h1>{city}</h1>
         <ul>
+          <li>Last updated: August 30th 2023</li>
           <li>
             <strong>Temperature</strong>:{Math.round(weather.temperature)} °F
           </li>

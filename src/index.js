@@ -5,8 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Search from "./Search";
 import Footer from "./Footer.js";
-
 import Forecast from "./Forecast.js";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
