@@ -3,8 +3,8 @@ import axios from "axios";
 import Forecast from "./Forecast.js";
 
 export default function Search(props) {
-  const [city, setCity] = useState("Phoenix");
-  const [weather, setWeather] = useState(99);
+  const [city, setCity] = useState("");
+  const [weather, setWeather] = useState();
   const [update, setUpdate] = useState(false);
 
   function handleResponse(response) {
