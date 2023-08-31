@@ -54,7 +54,7 @@ export default function Search(props) {
     return (
       <div>
         {form}
-        <h1>{city}</h1>
+        <h1>{city}Las Vegas</h1>
         <ul>
           <li>
             <strong>Temperature</strong>:{Math.round(weather.temperature)} °F

@@ -4,10 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Search from "./Search";
-import City from "./City";
 import Footer from "./Footer.js";
-import Temperature from "./Temperature.js";
-import Humidity from "./Humidity.js";
+
 import Forecast from "./Forecast.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -18,13 +16,10 @@ root.render(
         <div className="weather-app">
           <App />
           <Search />
-          <City />
-          <Temperature />
-          <Humidity />
           <Forecast />
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   </React.StrictMode>
 );

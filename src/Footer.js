@@ -10,11 +10,11 @@ export default function Footer(props) {
           target="_blank"
           rel="noreferrer"
         >
-          Sheronda McKee-Dollar{" "}
+          Sheronda McKee-Dollar
         </a>
         and is
         <a
-          href="https://github.com/SherondaMD/weather-app-smd"
+          href="https://github.com/SherondaMD/weather-react"
           target="_blank"
           rel="noreferrer"
         >
