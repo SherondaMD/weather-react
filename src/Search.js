@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Forecast from "./Forecast.js";
 
 export default function Search(props) {
-  const [city, setCity] = useState("");
-  const [weather, setWeather] = useState({});
+  const [city, setCity] = useState("Phoenix");
+  const [weather, setWeather] = useState(99);
   const [update, setUpdate] = useState(false);
 
   function handleResponse(response) {
@@ -73,6 +74,9 @@ export default function Search(props) {
             <img src={weather.icon} alt={weather.description} />
           </li>
         </ul>
+        <div>
+          <Forecast />
+        </div>
       </div>
     );
   } else {
