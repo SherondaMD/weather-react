@@ -6,8 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import Search from "./Search";
 import Footer from "./Footer.js";
 import Forecast from "./Forecast.js";
-
-
+import City from "./City.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,6 +16,7 @@ root.render(
         <div className="weather-app">
           <App />
           <Search />
+          <City />
           <Forecast />
         </div>
         <Footer />
